@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 install_requires = [
-    'django-oscar>=1.3.0',
-    'wagtail>=1.6.0',
+    'django-oscar>=1.6.4',
+    'wagtail>=2.3',
 ]
 
 docs_require = [
@@ -10,21 +10,21 @@ docs_require = [
 ]
 
 tests_require = [
-    'pytest-cov==2.3.1',
-    'pytest-django==3.0.0',
-    'pytest-pythonpath==0.7',
-    'pytest==3.0.0',
+    'pytest-cov==2.6.0',
+    'pytest-django==3.4.4',
+    'pytest-pythonpath==0.7.3',
+    'pytest==4.0.1',
 
     # Linting
-    'isort==4.2.5',
-    'flake8==3.0.3',
+    'isort==4.3.4',
+    'flake8==3.6.0',
     'flake8-blind-except==0.1.1',
-    'flake8-debugger==1.4.0',
+    'flake8-debugger==3.1.0',
 ]
 
 setup(
     name='django-oscar-wagtail',
-    version='0.1.2',
+    version='0.1.3',
     description="Integration between Django Oscar and Wagtail",
     long_description=open('README.rst').read(),
     author="Michael van Tellingen",

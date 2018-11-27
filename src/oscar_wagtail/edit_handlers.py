@@ -1,7 +1,7 @@
 from django.utils.html import escape
-from wagtail.wagtailadmin.edit_handlers import BaseChooserPanel
-from wagtail.wagtailcore.models import Page
-from wagtail.wagtailcore.rich_text import PageLinkHandler as _PageLinkHandler
+from wagtail.admin.edit_handlers import BaseChooserPanel
+from wagtail.core.models import Page
+from wagtail.core.rich_text.pages import PageLinkHandler as _PageLinkHandler
 
 from oscar_wagtail import widgets
 
